@@ -87,15 +87,6 @@ dsh plugin --profile desktop add "$PWD"
 | 输入框也跟着缩小 | 那是 0.4 之前的行为，更新到当前版本。 |
 | 放大时文字重新折行 | 版本不是 0.4+；早期版本只放大字号、没有同时加宽盒子。 |
 
-## 开发
-
-```bash
-git clone https://github.com/Sunshine334419520/dsh-trackpad-zoom.git
-dsh plugin --profile desktop add "$PWD"
-```
-
-没有构建步骤：`client.js` 是一个通过 `window.__ModuleLoader__` 注册的 ES module，`index.js` 是空的宿主半边。profile 以 link 方式引用该目录，改完刷新页面即生效。模块遵守的规则：工厂函数无副作用，监听器与 observer 都在 `ctx.effect` 内注册并返回清理函数，不在被缩放的盒子之外写 DOM。
-
 ## 许可证
 
 MIT © Sunshine334419520，见 [LICENSE](https://github.com/Sunshine334419520/dsh-trackpad-zoom/blob/main/LICENSE)。

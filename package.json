@@ -1,6 +1,6 @@
 {
   "name": "dsh-trackpad-zoom",
-  "version": "0.6.1",
+  "version": "0.1.0",
   "type": "module",
   "description": "Trackpad pinch (Ctrl+wheel) zoom for the DeepSeek Harness conversation column and Markdown previews, browser style: no UI, no keyboard shortcuts, one remembered factor per surface.",
   "license": "MIT",

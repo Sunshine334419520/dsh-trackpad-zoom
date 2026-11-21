@@ -87,15 +87,6 @@ Both live in the renderer's `localStorage` and are written 200 ms after a gestur
 | The composer shrinks with the transcript | That is the pre-0.4 behaviour; update to the current bundle. |
 | Text re-wraps while zooming | The version is not 0.4+; earlier builds zoomed type without growing the box. |
 
-## Development
-
-```bash
-git clone https://github.com/Sunshine334419520/dsh-trackpad-zoom.git
-dsh plugin --profile desktop add "$PWD"
-```
-
-There is no build step: `client.js` is a single ES module registered through `window.__ModuleLoader__`, `index.js` is an empty host half. Because the profile links the directory, edits take effect on the next page reload. The rules the module follows: factories stay side-effect free, listeners and observers are registered inside `ctx.effect` with a cleanup function, and no DOM outside the zoomed boxes is written.
-
 ## License
 
 MIT © Sunshine334419520. See [LICENSE](https://github.com/Sunshine334419520/dsh-trackpad-zoom/blob/main/LICENSE).
