@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "触摸板缩放",
+    "description": "在触摸板上捏合即可缩放对话区域与 Markdown 预览，效果与浏览器缩放一致，各区域的比例会被分别记住。",
+    "detail": "docs/DETAIL.zh-CN.md"
+  }
+}

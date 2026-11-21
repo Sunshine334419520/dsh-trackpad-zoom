@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Trackpad zoom",
+    "description": "Pinch on the trackpad to zoom the conversation column and Markdown previews, browser style, with each surface's factor remembered between sessions.",
+    "detail": "docs/DETAIL.md"
+  }
+}

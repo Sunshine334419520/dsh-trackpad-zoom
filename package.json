@@ -1,0 +1,39 @@
+{
+  "name": "dsh-trackpad-zoom",
+  "version": "0.6.0",
+  "private": true,
+  "type": "module",
+  "description": "Trackpad pinch (Ctrl+wheel) zoom for the DeepSeek Harness conversation column and Markdown previews, browser style: no UI, no keyboard shortcuts, one remembered factor per surface.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sunshine334419520/dsh-trackpad-zoom.git"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}
