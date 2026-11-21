@@ -6,10 +6,11 @@
 
 <div align="center">
 
-[简体中文](README.zh-CN.md) · [GitHub](https://github.com/Sunshine334419520/dsh-trackpad-zoom) · [Install](#installation) · [Settings](#settings)
+[简体中文](README.zh-CN.md) · [GitHub](https://github.com/Sunshine334419520/dsh-trackpad-zoom) · [npm](https://www.npmjs.com/package/dsh-trackpad-zoom) · [Install](#installation) · [Settings](#settings)
 
 [![DSH Plugin](https://img.shields.io/badge/DSH-Plugin-0f766e.svg)](https://github.com/deepseek-ai/deepseek-harness)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/dsh-trackpad-zoom.svg)](https://www.npmjs.com/package/dsh-trackpad-zoom)
 
 </div>
 
@@ -37,17 +38,11 @@ It does not touch:
 
 ## Installation
 
-### Plugin market
-
-Not published to the market yet. Use the source path below.
-
-### Command line
+### From npm
 
 ```bash
-dsh plugin --profile desktop add "$PWD"
+dsh plugin --profile desktop add dsh-trackpad-zoom
 ```
-
-Run it from the plugin directory after cloning.
 
 ### From source
 

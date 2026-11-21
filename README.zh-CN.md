@@ -6,10 +6,11 @@
 
 <div align="center">
 
-[English](README.md) · [GitHub](https://github.com/Sunshine334419520/dsh-trackpad-zoom) · [安装](#安装) · [设置](#设置)
+[English](README.md) · [GitHub](https://github.com/Sunshine334419520/dsh-trackpad-zoom) · [npm](https://www.npmjs.com/package/dsh-trackpad-zoom) · [安装](#安装) · [设置](#设置)
 
 [![DSH Plugin](https://img.shields.io/badge/DSH-Plugin-0f766e.svg)](https://github.com/deepseek-ai/deepseek-harness)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/dsh-trackpad-zoom.svg)](https://www.npmjs.com/package/dsh-trackpad-zoom)
 
 </div>
 
@@ -37,19 +38,13 @@
 
 ## 安装
 
-### 插件市场
-
-尚未上架。请走下面的源码路径。
-
-### 命令行
+### 从 npm 安装
 
 ```bash
-dsh plugin --profile desktop add "$PWD"
+dsh plugin --profile desktop add dsh-trackpad-zoom
 ```
 
-在克隆下来的插件目录里执行。
-
-### 源码
+### 从源码安装
 
 ```bash
 git clone https://github.com/Sunshine334419520/dsh-trackpad-zoom.git
