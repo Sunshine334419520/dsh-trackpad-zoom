@@ -33,6 +33,7 @@ picked up once on first load.
 pointer-anchored zoom and keep the gesture; HTML previews, which are iframes and
 out of scope; the composer's own size; the window chrome and the page itself.
 
-**Known limits:** zoom changes layout, so a conversation pinned to the newest
-message stays pinned, while a scrolled-up reading position keeps the content
-under the pointer rather than a pixel-exact bookmark.
+**Known limits:** zoom keeps the original line breaks, so above 100% the zoomed
+box is wider than its viewport and is panned horizontally; a conversation pinned
+to the newest message stays pinned, while a scrolled-up reading position keeps
+the content under the pointer rather than a pixel-exact bookmark.

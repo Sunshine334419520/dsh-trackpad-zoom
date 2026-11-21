@@ -76,7 +76,7 @@ Both live in the renderer's `localStorage` and are written 200 ms after a gestur
 - **macOS:** trackpad pinch maps to `Ctrl` + wheel in Chromium natively; nothing to configure.
 - **Windows / Linux:** the same `Ctrl` + wheel path applies; a mouse wheel with `Ctrl` held works too.
 - **Browser-embedded web UI:** the gesture works, but browser-level zoom shortcuts stay owned by the browser.
-- **Known limits:** the gesture changes layout, so a conversation pinned to the newest message stays pinned. HTML previews and plain-text/code previews are out of scope; Markdown and the conversation are the two surfaces this plugin scales.
+- **Known limits:** zoom keeps the original line breaks, so above 100% the zoomed box is wider than its viewport and is panned horizontally; a conversation pinned to the newest message stays pinned. HTML previews and plain-text/code previews are out of scope; Markdown and the conversation are the two surfaces this plugin scales.
 
 ## Troubleshooting
 
